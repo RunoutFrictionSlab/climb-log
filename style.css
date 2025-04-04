@@ -1,0 +1,124 @@
+html{
+    box-sizing: border-box;
+    background-color: rgb(53, 48, 48);
+}
+*,
+*::before,
+*::after{
+    margin:10px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
+}
+
+.nav-bar{
+    border: 2px solid rgb(0, 255, 0);
+
+}
+
+.site-title{
+    font-size: 32px;
+}
+
+.route-display{
+   display: flex;
+  /* justify-content: space-between;*/
+   border: 2px solid rgb(0 , 255, 0);
+
+}
+
+.area-display-left{
+    width: 80%;
+    border: 2px solid red;
+    
+}
+
+.area-display-left-header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(0, 0, 255);
+
+}
+
+.area-list-title{
+
+}
+
+.route-area-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid rgb(0, 0, 255);
+
+}
+
+
+
+
+
+.route-area{
+    width: 24%;
+    margin: 2px;
+    background-color: rgb(112, 112, 112);
+    border: 2px solid black;
+
+}
+
+.route-area-image{
+    width: auto;
+    height: 200px;
+    background-color: aqua;
+
+}
+
+.route-area-description-container{
+
+}
+
+.route-area-title{
+    font-size: 26;
+    color:rgb(43, 80, 136);
+    text-align: center;
+
+}
+
+.route-area-link{
+    font-size: 26;
+    color:rgb(36, 75, 133);
+
+}
+.highest-rated-routes{
+
+}
+
+.route-area-total-pitches-climbed{
+
+}
+
+.area-display-right{
+    border: 2px solid red;
+    width: 20%;
+    background-color: rgb(112, 112, 112);
+
+}
+
+.route-search-header{
+
+}
+
+.route-search-bar{
+
+}
+
+.recent-routes{
+
+}
+
+.recent-routes-header{
+
+}
+
+.recent-routes-list{
+
+}
